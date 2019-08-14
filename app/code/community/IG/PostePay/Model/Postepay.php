@@ -13,9 +13,9 @@ class IG_PostePay_Model_Postepay extends Mage_Payment_Model_Method_Abstract
 	protected $_canCapturePartial			= false;
 	protected $_canRefund					= false;
 	protected $_canVoid						= true;
-	protected $_canUseInternal				= false;
+	protected $_canUseInternal				= true;
 	protected $_canUseCheckout				= true;
-	protected $_canUseForMultishipping		= false;
+	protected $_canUseForMultishipping		= true;
 	
 	public function getConfig($key)
 	{

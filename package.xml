@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>IG_PostePay</name>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <stability>stable</stability>
     <license uri="http://www.idealiagroup.com/magento-modules-license.html">Community</license>
     <channel>community</channel>
@@ -10,9 +10,9 @@
     <description>Modulo molto semplice e pronto all'uso per ricevere pagamenti con ricariche postepay.</description>
     <notes>Enjoy it ;)</notes>
     <authors><author><name>Riccardo Tempesta</name><user>auto-converted</user><email>tempesta@idealiagroup.com</email></author><author><name>Marco Giorgetti</name><user>auto-converted</user><email>giorgetti@idealiagroup.com</email></author></authors>
-    <date>2009-11-09</date>
-    <time>15:31:40</time>
-    <contents><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="ig_postepay"><file name="info.phtml" hash="900b9c86412dc7befd1470687ec7e634"/></dir></dir></dir></dir></dir><dir name="frontend"><dir name="default"><dir name="default"><dir name="template"><dir name="ig_postepay"><file name="form.phtml" hash="5a588c524c8382f128726684d2d44766"/><file name="info.phtml" hash="f757cbec2d06d0a03864858cb5cae82b"/></dir></dir></dir></dir></dir></target><target name="magelocale"><dir name="en_US"><file name="IG_PostePay.csv" hash="5aa470b1c547ba1f726e86b0ff3f84fe"/></dir><dir name="it_IT"><file name="IG_PostePay.csv" hash="f8ac20a2ae526a2c275e5d26d0a3126a"/></dir></target><target name="mageskin"><dir name="frontend"><dir name="default"><dir name="default"><dir name="images"><dir name="ig_postepay"><file name="logo.png" hash="d64f101cb7d964caeb7a007ba134a327"/></dir></dir></dir></dir></dir></target><target name="magecommunity"><dir name="IG"><dir name="PostePay"><dir name="Block"><file name="Form.php" hash="117863d84645588b44b551a3bd8e4736"/><file name="Info.php" hash="e0bffb8795124ef1f20a7cec9847db03"/></dir><dir name="etc"><file name="config.xml" hash="9f3331af0dde423237c5755bed772b79"/><file name="system.xml" hash="3fe898665c9fc6cbedd737dc869c0487"/></dir><dir name="Helper"><file name="Data.php" hash="bc7149e2cc77e1e2191fca711ee986c1"/></dir><dir name="Model"><file name="Postepay.php" hash="6f70f684c715696cfd5c12ae3eee4a89"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="IG_PostePay.xml" hash="7feb712df5d00b003b85a681db6e045f"/></dir></target></contents>
+    <date>2010-02-18</date>
+    <time>11:34:18</time>
+    <contents><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="ig_postepay"><file name="form.phtml" hash="d41d8cd98f00b204e9800998ecf8427e"/><file name="info.phtml" hash="900b9c86412dc7befd1470687ec7e634"/></dir></dir></dir></dir></dir><dir name="frontend"><dir name="default"><dir name="default"><dir name="template"><dir name="ig_postepay"><file name="form.phtml" hash="a4b51b0537409ab0e38fee6a7fcea94a"/><file name="info.phtml" hash="f757cbec2d06d0a03864858cb5cae82b"/></dir></dir></dir></dir></dir></target><target name="magelocale"><dir name="en_US"><file name="IG_PostePay.csv" hash="b8ed000749ecc50ea773f38c2c42901c"/></dir><dir name="it_IT"><file name="IG_PostePay.csv" hash="519063688e0cd2a3fe195e5146413de9"/></dir></target><target name="mageskin"><dir name="frontend"><dir name="default"><dir name="default"><dir name="images"><dir name="ig_postepay"><file name="logo.png" hash="d64f101cb7d964caeb7a007ba134a327"/></dir></dir></dir></dir></dir></target><target name="magecommunity"><dir name="IG"><dir name="PostePay"><dir name="Block"><file name="Form.php" hash="117863d84645588b44b551a3bd8e4736"/><file name="Info.php" hash="e0bffb8795124ef1f20a7cec9847db03"/></dir><dir name="etc"><file name="config.xml" hash="0d5fcf3f3f8a47515b678954835d6551"/><file name="system.xml" hash="3fe898665c9fc6cbedd737dc869c0487"/></dir><dir name="Helper"><file name="Data.php" hash="bc7149e2cc77e1e2191fca711ee986c1"/></dir><dir name="Model"><file name="Postepay.php" hash="8c75bff8a7772b613c0cceeba065f000"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="IG_PostePay.xml" hash="7feb712df5d00b003b85a681db6e045f"/></dir></target></contents>
     <compatible/>
     <dependencies/>
 </package>
