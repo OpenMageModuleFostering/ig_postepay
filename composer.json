@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/IG_PostePay",
+    "type": "magento-module",
+    "license": "Community",
+    "homepage": "",
+    "description": "Modulo per ricevere pagamenti via ricarica PostePay.",
+    "authors": [
+    {
+        "name": "Riccardo Tempesta",
+        "email": "tempesta@idealiagroup.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

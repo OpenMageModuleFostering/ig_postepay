@@ -1,0 +1,89 @@
+<config>
+	<modules>
+		<IG_PostePay>
+			<version>1.0.0</version>
+		</IG_PostePay>
+	</modules>
+
+	<global>
+		<helpers>
+			<ig_postepay>
+				<class>IG_PostePay_Helper</class>
+			</ig_postepay>
+        </helpers>
+		<blocks>
+			<ig_postepay>
+				<class>IG_PostePay_Block</class>
+			</ig_postepay>
+		</blocks>
+		<models>
+			<ig_postepay>
+				<class>IG_PostePay_Model</class>
+			</ig_postepay>
+		</models>
+		<resources>
+			<ig_postepay_setup>
+				<setup>
+					<module>IG_PostePay</module>
+				</setup>
+				<connection>
+					<use>core_setup</use>
+				</connection>
+			</ig_postepay_setup>
+			
+			<ig_postepay_write>
+				<connection>
+					<use>core_write</use>
+				</connection>
+			</ig_postepay_write>
+			
+			<ig_postepay_read>
+				<connection>
+					<use>core_read</use>
+				</connection>
+			</ig_postepay_read>
+        </resources>
+	</global>
+
+	<frontend>
+		<translate>
+			<modules>
+				<ig_postepay>
+					<files>
+						<default>IG_PostePay.csv</default>
+					</files>
+				</ig_postepay>
+			</modules>
+		</translate>
+	</frontend>
+	
+	<adminhtml>
+		<translate>
+			<modules>
+				<ig_postepay>
+					<files>
+						<default>IG_PostePay.csv</default>
+					</files>
+				</ig_postepay>
+			</modules>
+		</translate>
+	</adminhtml>
+
+	<default>
+		<payment>
+			<ig_postepay>
+				<active>1</active>
+				<model>ig_postepay/postepay</model>
+				<order_status>pending</order_status>
+				<title>Ricarica PostePay</title>
+				<payment_action>authorize</payment_action>
+				<allowspecific>1</allowspecific>
+				<specificcountry>IT</specificcountry>
+				<creditcard>4023-6004-XXXX-XXXX</creditcard>
+				<creditholder>Mario Rossi</creditholder>
+				<freetext>Scrivi qui le tue note aggiuntive.</freetext>
+			</ig_postepay>
+		</payment>
+	</default>
+
+</config>
