@@ -19,13 +19,22 @@
 							<show_in_website>1</show_in_website>
 							<show_in_store>1</show_in_store>
 						</active>
+						<displaycheckout translate="label">
+							<label>Display credit card info on checkout</label>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+							<sort_order>15</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</displaycheckout>
 						<title translate="label">
 							<label>Title</label>
 							<frontend_type>text</frontend_type>
 							<sort_order>20</sort_order>
 							<show_in_default>1</show_in_default>
 							<show_in_website>1</show_in_website>
-							<show_in_store>0</show_in_store>
+							<show_in_store>1</show_in_store>
                         </title>
 						<order_status translate="label">
 							<label>New order status</label>
@@ -34,7 +43,7 @@
 							<sort_order>30</sort_order>
 							<show_in_default>1</show_in_default>
 							<show_in_website>1</show_in_website>
-							<show_in_store>0</show_in_store>
+							<show_in_store>1</show_in_store>
 						</order_status>
 						<allowspecific translate="label">
 							<label>Payment from applicable countries</label>
@@ -43,7 +52,7 @@
 							<source_model>adminhtml/system_config_source_payment_allspecificcountries</source_model>
 							<show_in_default>1</show_in_default>
 							<show_in_website>1</show_in_website>
-							<show_in_store>0</show_in_store>
+							<show_in_store>1</show_in_store>
 						</allowspecific>
 						<specificcountry translate="label">
 							<label>Payment from Specific countries</label>
@@ -61,7 +70,7 @@
 							<sort_order>60</sort_order>
 							<show_in_default>1</show_in_default>
 							<show_in_website>1</show_in_website>
-							<show_in_store>0</show_in_store>
+							<show_in_store>1</show_in_store>
 						</creditcard>
 						<creditholder translate="label">
 							<label>Your PostePay Card Holder</label>
@@ -70,7 +79,7 @@
 							<sort_order>70</sort_order>
 							<show_in_default>1</show_in_default>
 							<show_in_website>1</show_in_website>
-							<show_in_store>0</show_in_store>
+							<show_in_store>1</show_in_store>
 						</creditholder>
 						<freetext translate="label">
 							<label>Free text</label>
@@ -78,7 +87,7 @@
 							<sort_order>80</sort_order>
 							<show_in_default>1</show_in_default>
 							<show_in_website>1</show_in_website>
-							<show_in_store>0</show_in_store>
+							<show_in_store>1</show_in_store>
 						</freetext>
 					</fields>
 				</ig_postepay>

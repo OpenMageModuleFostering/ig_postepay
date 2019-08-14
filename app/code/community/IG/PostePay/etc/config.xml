@@ -1,7 +1,7 @@
 <config>
 	<modules>
 		<IG_PostePay>
-			<version>1.0.0</version>
+			<version>1.0.1</version>
 		</IG_PostePay>
 	</modules>
 
@@ -73,6 +73,7 @@
 		<payment>
 			<ig_postepay>
 				<active>1</active>
+				<displaycheckout>1</displaycheckout>
 				<model>ig_postepay/postepay</model>
 				<order_status>pending</order_status>
 				<title>Ricarica PostePay</title>

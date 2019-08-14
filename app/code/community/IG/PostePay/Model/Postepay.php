@@ -5,6 +5,7 @@ class IG_PostePay_Model_Postepay extends Mage_Payment_Model_Method_Abstract
 	protected $_paymentMethod				= 'ig_postepay';
 	protected $_store_config				= 'payment/ig_postepay';
 	protected $_formBlockType				= 'ig_postepay/form';
+	protected $_infoBlockType				= 'ig_postepay/info';
 
 	protected $_isGateway					= false;
 	protected $_canAuthorize				= true;

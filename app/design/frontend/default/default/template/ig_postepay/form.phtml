@@ -8,6 +8,8 @@ $_img			= $this->getPaymentImageSrc();
 	<div style="position: relative; left: 14em; top: -2.5em"><a href="http://www.poste.it/" target="_blank"><img src="<?php echo $_img ?>" alt="" /></a></div>
 	<?php } ?>
 	<ul id="payment_form_<?php echo $_code ?>" style="display:none;">
+		<?php if ($_method->getConfig('displaycheckout')) { ?>
+	
 		<?php if ($_method->getConfig('creditcard') != '') { ?>
 		<li>
 			<?php echo Mage::helper('ig_postepay')->__('Card number to recharge') ?>: <strong><?php echo htmlspecialchars($_method->getConfig('creditcard')) ?></strong>
@@ -22,6 +24,10 @@ $_img			= $this->getPaymentImageSrc();
 		<li>
 			<small><?php echo nl2br(htmlspecialchars($_method->getConfig('freetext'))) ?></small>
 		</li>
+		<?php } ?>
+		
+		<?php } else { ?>
+		<li><?php echo Mage::helper('ig_postepay')->__('You will receive further shppoer information via email') ?></li>
 		<?php } ?>
 	</ul>
 </fieldset>
